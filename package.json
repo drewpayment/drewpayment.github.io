@@ -1,0 +1,24 @@
+{
+  "name": "drew-payment-resume",
+  "version": "1.0.0",
+  "description": "Drew Payment's resume.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/resumed/bin/resumed.js render",
+    "test": "./node_modules/resumed/bin/resumed.js validate"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drewpayment/drew-payment-resume.git"
+  },
+  "author": "Drew Payment",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drewpayment/drew-payment-resume/issues"
+  },
+  "homepage": "https://github.com/drewpayment/drew-payment-resume#readme",
+  "dependencies": {
+    "jsonresume-theme-stackoverflow-vforesee": "^0.0.2",
+    "resumed": "^1.0.2"
+  }
+}
