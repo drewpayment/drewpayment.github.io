@@ -33,7 +33,7 @@
       "description": "All-in-one, cloud-based payroll and HR software.",
       "position": "Director of Technology",
       "url": "https://dominionsystems.com",
-      "startDate": "June 2017",
+      "startDate": "2017-06-14",
       "summary": "Dominion Systems is a cloud-based payroll and HR platform that supports clients through the entire employment process. From managing appliants with integrations to job boards like Indeed, onboarding employees with custom workflows, payroll, performance reviews and the employee exiting workflow Dominion's platform supports HR and payroll professional in being successful with their respective organizations.",
       "highlights": [
         "Applicant tracking, onboarding, payroll, time & attendance, general ledger",
@@ -59,8 +59,8 @@
       "description": "Industrial engineering and manufacturing with a focus on innovative design, sustainability and enhanced product sustainability and security. The organization prides itself on a focus culture of charity and giving back, making differences in the lives of those whose communities they inhabit.",
       "position": "Software Engineer",
       "url": "https://www.innotecgroup.com",
-      "startDate": "April 2016",
-      "endDate": "June 2017",
+      "startDate": "2016-04-20",
+      "endDate": "2017-06-01",
       "summary": "Developing and supporting web applications for Innotec's internal use monitoring and interacting with engineering equipment, operational tools, accounting and employee support tools.",
       "highlights": [
         "ASP.NET and fullstack development",
@@ -73,7 +73,7 @@
       "location": "Grand Rapids, MI",
       "description": "Freelance projects",
       "position": "Owner",
-      "startDate": "August 2014",
+      "startDate": "2014-08-01",
       "highlights": [
         "Choice Marketing Partners - https://choice-marketing-partners.com",
         "AFI - https://afiusa.net"
@@ -84,8 +84,8 @@
       "location": "West Michigan",
       "description": "Sales Management",
       "position": "Sales Manager",
-      "startDate": "February 2008",
-      "endDate": "April 2016",
+      "startDate": "2008-02-20",
+      "endDate": "2016-04-10",
       "highlights": [
         "Fast-paced sales management environment",
         "Extremely high-performer",
@@ -99,16 +99,16 @@
       "url": "https://www.devry.edu",
       "area": "Information Systems",
       "studyType": "BS",
-      "startDate": "December 2013",
-      "endDate": "April 2016",
+      "startDate": "2013-09-06",
+      "endDate": "2016-04-23",
       "score": "3.6"
     },
     {
       "institution": "CIW",
       "url": "https://www.ciwcertified.com",
       "area": "Web Security",
-      "startDate": "August 2005",
-      "endDate": "June 2006",
+      "startDate": "2005-08-22",
+      "endDate": "2006-06-11",
       "studyType": "Certifications"
     }
   ],
@@ -116,7 +116,7 @@
     {
       "name": "Muskegon & North Ottawa: A Football Factory (1895-2007)",
       "publisher": "Rogers Printing",
-      "releaseDate": "April 2008",
+      "releaseDate": "2008-04-02",
       "url": "https://books.google.com/books/about/Muskegon_North_Ottawa.html?id=SWKztgAACAAJ",
       "summary": "A comprehensive history of high school in West Michigan with a personal touch."
     }
