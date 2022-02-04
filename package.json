@@ -4,7 +4,8 @@
   "description": "Drew Payment's resume.",
   "main": "index.js",
   "scripts": {
-    "build": "./node_modules/resumed/bin/resumed.js render",
+    "build": "./node_modules/resumed/bin/resumed.js render -o public/index.html",
+    "serve": "firebase serve -p 3000",
     "test": "./node_modules/resumed/bin/resumed.js validate"
   },
   "repository": {
