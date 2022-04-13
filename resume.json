@@ -31,9 +31,31 @@
       "name": "Dominion Systems",
       "location": "Grand Rapids, MI",
       "description": "All-in-one, cloud-based payroll and HR software.",
+      "position": "Vice President of Technology",
+      "url": "https://dominionsystems.com",
+      "startDate": "February 2022",
+      "summary": "Dominion Systems is a cloud-based payroll and HR platform that supports clients through the entire employment process. From managing applicants with integrations to job boards like Indeed, onboarding employees with custom workflows, payroll, performance reviews and the employee exiting workflow Dominion's platform supports HR and payroll professional in being successful with their respective organizations.",
+      "highlights": [
+        "Responsible for the design, development and implementation of organizational information systems",
+        "Lead software development and quality assurance teams",
+        "Own the organization's software development lifecycle and information security practices",
+        "Direct and manage IT plans, schedules, policies, procedures and programs for data processing, network communications, business operations and management information systems according to established goals",
+        "Identify emerging technologies and trends in the industry to keep Dominion ahead of the competition, aligning our products & services with our Core Focus",
+        "Drive implementation of software development best practices and govern quality measurement controls",
+        "Directly responsible for risk management, resource allocation, project prioritization, research & development and the recommendation of new systems",
+        "Coach and develop technical directors, manage technical teams",
+        "Guide leadership decisions through a consultative lens, with intentional focus on Dominion's brand promise",
+        "Identify opportunities for IT team to assist other internal departments in making their daily processes simpler through automated systems"
+      ]
+    },
+    {
+      "name": "Dominion Systems",
+      "location": "Grand Rapids, MI",
+      "description": "All-in-one, cloud-based payroll and HR software.",
       "position": "Director of Technology",
       "url": "https://dominionsystems.com",
       "startDate": "June 2017",
+      "endDate": "January 2022",
       "summary": "Dominion Systems is a cloud-based payroll and HR platform that supports clients through the entire employment process. From managing applicants with integrations to job boards like Indeed, onboarding employees with custom workflows, payroll, performance reviews and the employee exiting workflow Dominion's platform supports HR and payroll professional in being successful with their respective organizations.",
       "highlights": [
         "Applicant tracking, onboarding, payroll, time & attendance, general ledger",
@@ -96,16 +118,13 @@
   "education": [
     {
       "institution": "DeVry University",
-      "url": "https://www.devry.edu",
-      "area": "Information Systems",
+      "area": "Information Systems & Analysis",
       "studyType": "BS",
       "startDate": "September 2013",
-      "endDate": "April 2016",
-      "score": "3.6"
+      "endDate": "April 2016"
     },
     {
       "institution": "CIW",
-      "url": "https://www.ciwcertified.com",
       "area": "Web Security",
       "startDate": "August 2005",
       "endDate": "June 2006",
