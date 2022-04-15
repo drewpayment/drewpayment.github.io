@@ -43,3 +43,41 @@
 [info] i  hosting: 127.0.0.1 - - [13/Apr/2022:02:53:27 +0000] "GET / HTTP/1.1" 200 84815 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2022:02:53:27 +0000] \"GET / HTTP/1.1\" 200 84815 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36\""}}
 [info] i  hosting: 127.0.0.1 - - [13/Apr/2022:02:54:16 +0000] "GET / HTTP/1.1" 200 84838 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2022:02:54:16 +0000] \"GET / HTTP/1.1\" 200 84838 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36\""}}
 [info] i  hosting: 127.0.0.1 - - [13/Apr/2022:02:54:34 +0000] "GET / HTTP/1.1" 200 84830 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [13/Apr/2022:02:54:34 +0000] \"GET / HTTP/1.1\" 200 84830 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36\""}}
+[debug] [2022-04-15T02:32:33.331Z] ----------------------------------------------------------------------
+[debug] [2022-04-15T02:32:33.332Z] Command:       /Users/drew.payment/.nvm/versions/node/v16.13.1/bin/node /Users/drew.payment/.nvm/versions/node/v16.13.1/bin/firebase serve -p 3000
+[debug] [2022-04-15T02:32:33.332Z] CLI Version:   10.1.4
+[debug] [2022-04-15T02:32:33.332Z] Platform:      darwin
+[debug] [2022-04-15T02:32:33.332Z] Node Version:  v16.13.1
+[debug] [2022-04-15T02:32:33.332Z] Time:          Thu Apr 14 2022 22:32:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2022-04-15T02:32:33.333Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-04-15T02:32:33.334Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2022-04-15T02:32:33.370Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-04-15T02:32:33.370Z] > authorizing via signed-in user (drew.payment@gmail.com)
+[debug] [2022-04-15T02:32:33.370Z] [iam] checking project resume-60710 for permissions ["firebase.projects.get"]
+[debug] [2022-04-15T02:32:33.371Z] > refreshing access token with scopes: []
+[debug] [2022-04-15T02:32:33.371Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2022-04-15T02:32:33.559Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-04-15T02:32:33.560Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2022-04-15T02:32:33.611Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Fri, 15 Apr 2022 02:32:33 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2022-04-15T02:32:33.656Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-60710:testIamPermissions [none]
+[debug] [2022-04-15T02:32:33.657Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-60710:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-15T02:32:33.894Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-60710:testIamPermissions 200
+[debug] [2022-04-15T02:32:33.894Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/resume-60710:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2022-04-15T02:32:33.896Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710 [none]
+[debug] [2022-04-15T02:32:34.178Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710 200
+[debug] [2022-04-15T02:32:34.179Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710 {"projectId":"resume-60710","projectNumber":"582990182569","displayName":"resume","name":"projects/resume-60710","resources":{"hostingSite":"resume-60710"},"state":"ACTIVE"}
+[info] 
+[info] === Serving from '/Users/drew.payment/dev/drewpayment.github.io'...
+[info] 
+[debug] [2022-04-15T02:32:34.181Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/resume-60710/sites 
+[debug] [2022-04-15T02:32:34.663Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/resume-60710/sites 200
+[debug] [2022-04-15T02:32:34.664Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/resume-60710/sites {"sites":[{"name":"projects/582990182569/sites/resume-60710","defaultUrl":"https://resume-60710.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2022-04-15T02:32:34.664Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710/webApps/-/config [none]
+[debug] [2022-04-15T02:32:35.071Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710/webApps/-/config 200
+[debug] [2022-04-15T02:32:35.071Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/resume-60710/webApps/-/config {"projectId":"resume-60710","storageBucket":"resume-60710.appspot.com","apiKey":"AIzaSyDGnto_0r_UD3Rkw5WX75t2ebMNRYBkD5M","authDomain":"resume-60710.firebaseapp.com","messagingSenderId":"582990182569"}
+[info] i  hosting: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] ✔  hosting: Local server: http://localhost:3000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://localhost:3000\u001b[22m\u001b[24m"}}
+[info] i  hosting: 127.0.0.1 - - [15/Apr/2022:02:32:40 +0000] "GET / HTTP/1.1" 200 84828 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [15/Apr/2022:02:32:40 +0000] \"GET / HTTP/1.1\" 200 84828 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [15/Apr/2022:02:32:40 +0000] "GET /favicon.ico HTTP/1.1" 200 84828 "http://localhost:3000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [15/Apr/2022:02:32:40 +0000] \"GET /favicon.ico HTTP/1.1\" 200 84828 \"http://localhost:3000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36\""}}
